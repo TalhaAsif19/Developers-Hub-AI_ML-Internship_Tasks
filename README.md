@@ -50,6 +50,114 @@ Box plots were used to identify outliers and visualize the spread of numerical f
 * Histograms help visualize the spread and concentration of feature values.
 * No missing/null values were found in the dataset.
 
-## Task Files
+## Task File
 * [Open Task 1 Notebook](./DHC_Task_1.ipynb)
+
+
+# Task 2: Predict Future Stock Prices
+
+## Objective:
+
+Use historical stock market data to predict the next day's closing stock price using regression models.
+
+## Dataset Used:
+
+Amazon Stock Market Data (Yahoo Finance)
+
+## Stock Selected:
+
+Amazon (AMZN)
+
+## Dataset Source:
+
+Yahoo Finance API using the `yfinance` Python library
+
+## Features Used:
+
+* Open
+* High
+* Low
+* Volume
+
+## Target Variable:
+
+* Next_Close (Next Day Closing Price)
+
+## Libraries Used
+
+* yfinance
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+
+## Platform / Environment
+
+* Google Colab
+
+## Tasks Performed
+
+* Retrieved historical Amazon stock data using `yfinance`
+* Inspected dataset using `.head()`, `.shape`, `.info()`, and `.describe()`
+* Checked duplicate values using `.duplicated().sum()`
+* Checked missing/null values using `.isnull().sum()`
+* Visualized stock closing price trends using Seaborn line plots
+* Performed feature engineering by creating the `Next_Close` target column
+* Split the dataset into 80% training and 20% testing sets
+* Applied StandardScaler for feature standardization
+* Trained a Linear Regression model
+* Predicted next-day stock closing prices
+* Evaluated model performance using regression metrics
+* Visualized actual vs predicted stock prices using line plots
+
+## Visualizations
+
+### Line Plot
+
+A Seaborn line plot was created to visualize Amazon’s closing stock prices over time and observe overall market trends.
+
+### Actual vs Predicted Plot
+
+A comparison line plot was created to compare actual stock prices with predicted stock prices.
+
+## Regression Metrics Used
+
+### Mean Absolute Error (MAE)
+
+Measures the average absolute prediction error.
+
+### Mean Squared Error (MSE)
+
+Measures the average squared prediction error.
+
+### Root Mean Squared Error (RMSE)
+
+Measures prediction error in the same unit as stock prices.
+
+### R² Score
+
+Measures how well the regression model explains the variance in stock prices.
+
+## Model Used
+
+### Linear Regression
+
+Linear Regression is a supervised machine learning algorithm used for predicting continuous numerical values by learning relationships between input features and the target variable.
+
+## Key Observations
+
+* Amazon stock prices showed an overall increasing trend over time.
+* Open, High, and Low prices showed strong positive correlation with closing prices.
+* No duplicate values were found in the dataset.
+* No major missing/null values were present after preprocessing.
+* The Linear Regression model achieved strong predictive performance.
+* Low MAE and RMSE values indicated small prediction errors.
+* The R² score was approximately 0.99, indicating excellent model performance.
+* Actual and predicted stock price lines were closely aligned, showing accurate predictions.
+
+## Task Files
+* [Open Task 1 Notebook](./DHC_Task_2.ipynb)
+
+
 
