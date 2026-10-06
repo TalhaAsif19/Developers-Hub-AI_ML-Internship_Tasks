@@ -161,7 +161,7 @@ Linear Regression is a supervised machine learning algorithm used for predicting
 * Actual and predicted stock price lines were closely aligned, showing accurate predictions.
 
 ## Task Files
-* [Open Task 2 Notebook](./Amazon Stock Price Prediction.ipynb)
+* [Open Task 2 Notebook](./Amazon%20Stock%20Price%20Prediction.ipynb)
 
 # Task 3: General Health Query Chatbot (PromptEngineering Based)
 ## Objective
