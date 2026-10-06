@@ -388,7 +388,7 @@ def health_chatbot(user_query):
 ---
 
 ## Task Files
-* [Open Task 2 Notebook](./Medical AI Chatbot.ipynb)
+* [Open Task 3 Notebook](./Medical AI Chatbot.ipynb)
 ---
 
 # Note About GitHub Notebook Preview
