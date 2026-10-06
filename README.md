@@ -163,8 +163,7 @@ Linear Regression is a supervised machine learning algorithm used for predicting
 ## Task Files
 * [Open Task 2 Notebook](./Amazon Stock Price Prediction.ipynb)
 
-
-# Task 4: General Health Query Chatbot (PromptEngineering Based)
+# Task 3: General Health Query Chatbot (PromptEngineering Based)
 ## Objective
 Create a chatbot that can answer general health-related questions using an LLM (LargeLanguage Model).
 
