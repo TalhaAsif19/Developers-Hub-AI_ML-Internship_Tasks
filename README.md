@@ -387,6 +387,10 @@ def health_chatbot(user_query):
 
 ---
 
+## Task Files
+* [Open Task 2 Notebook](./Medical AI Chatbot.ipynb)
+---
+
 # Note About GitHub Notebook Preview
 
 The original notebook contained interactive chatbot runtime outputs generated during testing in Google Colab.
